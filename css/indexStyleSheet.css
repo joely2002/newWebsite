@@ -16,16 +16,3 @@ h2 {
   font-size: 1.5em;
   font-style: italic;
 }
-
-.outer {
-  width: 70%;
-  margin: 20px auto;
-  display: flex;
-  align-items: center;
-}
-labelClass {
-  width: 30%;
-  float: center;
-  text-align: center;
-  padding-right: 50px;
-}

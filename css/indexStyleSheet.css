@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255,255,102);
+  background-image: url("http://cdn.hipwallpaper.com/i/0/68/OG1FLx.jpg");
 }
 h1 {
   display: flex;
@@ -15,4 +15,17 @@ h2 {
   font-family: arial black;
   font-size: 1.5em;
   font-style: italic;
+}
+
+.outer {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+labelClass {
+  width: 30%;
+  float: center;
+  text-align: center;
+  padding-right: 50px;
 }

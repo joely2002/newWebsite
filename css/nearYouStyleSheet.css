@@ -1,0 +1,27 @@
+body {
+  background-image: url("http://cdn.hipwallpaper.com/i/0/68/OG1FLx.jpg");
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255,255,255);
+  font-family: arial black;
+  font-size: 5em;
+  font-style: italic;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255,255,255);
+  font-family: arial black;
+  font-style: italic;
+}
+p {
+  display: flex;
+  justify-content: center;
+  color: rgb(255,255,255);
+  font-family: arial black;
+}
+a {
+  color: rgb(255,255,255)
+}

@@ -1,0 +1,77 @@
+h1 {
+  font-size: 5em;
+  font-style: italic;
+  font-family: arial black;
+  display: flex;
+  justify-content: center;
+  text-decoration: center;
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://cdn.hipwallpaper.com/i/0/68/OG1FLx.jpg");
+}
+img {
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 0px;
+  background-color:rgb(255, 255, 255);
+  justify-content: flex-end;
+}
+p {
+  display: flex;
+  justify-content: flex-start;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: Brush Script MT;
+  font-size: 100px;
+  text-shadow:2px 2px #fbff0a
+}
+ul {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  text-align: left;
+  font-family: arial black;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px #ffffff
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: Brush Script MT;
+}
+div {
+}
+h2#ins {
+  text-shadow: 2px 2px #fbff0a
+}
+img#cheese {
+  display: flex;
+  padding: 2px;
+  margin: 0 auto;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: Brush Script MT;
+}
+img#brownies {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+div#bro {
+  align-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}

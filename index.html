@@ -4,12 +4,13 @@
   <title>webpage</title>
   <link rel="stylesheet" type="text/css" href="css/indexStyleSheet.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
 <h1> Glorious Food </h1>
 <h2> Home </h2>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Glorious Food</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -30,6 +31,72 @@
     </ul>
   </div>
 </nav>
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/easy_spaghetti_carbonara_2000.jpg?vd=20180522T020207Z&hash=9B103A2DB3CDCB31DB146870A3E05F9856C051A2" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="https://i.ytimg.com/vi/lIb_741_dIw/maxresdefault.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/campaigns/spring/recipes/mild-chicken-curry_2000.jpg?vd=20190402T112728Z&hash=CEE2C42F463DCBED8F0B2D290A4FF0B851099DF0" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="https://dkk5oy4zs0vc4.cloudfront.net/images/services-landing-pages/gallery/food-photography-2-lg.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="http://www.jackspiceradams.com/wp-content/uploads/2017/05/Minmin-noodle-bar-03.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="https://westcottu.com/wp-content/uploads/Screen-shot-2012-08-29-at-9.54.26-AM.png" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/easy_spaghetti_carbonara_2000.jpg?vd=20180522T020207Z&hash=9B103A2DB3CDCB31DB146870A3E05F9856C051A2" style="width:100%" onclick="currentSlide(1)" alt="Learn how to cook this carbonara on our recipes page">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.ytimg.com/vi/lIb_741_dIw/maxresdefault.jpg" style="width:100%" onclick="currentSlide(2)" alt="Learn how to bake these brownies on our recipes page">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/campaigns/spring/recipes/mild-chicken-curry_2000.jpg?vd=20190402T112728Z&hash=CEE2C42F463DCBED8F0B2D290A4FF0B851099DF0" style="width:100%" onclick="currentSlide(3)" alt="Learn how to make this chicken curry on our recipes page">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://dkk5oy4zs0vc4.cloudfront.net/images/services-landing-pages/gallery/food-photography-2-lg.jpg" style="width:100%" onclick="currentSlide(4)" alt="Get inspired by viewing our food gallery">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://www.jackspiceradams.com/wp-content/uploads/2017/05/Minmin-noodle-bar-03.jpg" style="width:100%" onclick="currentSlide(5)" alt="Get inspired by viewing our food gallery">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://westcottu.com/wp-content/uploads/Screen-shot-2012-08-29-at-9.54.26-AM.png" style="width:100%" onclick="currentSlide(6)" alt="Get inspired by viewing our food gallery">
+    </div>
+  </div>
+</div>
+
 <p> If you have any questions or suggestions, please fill out the form below. <p>
 <div class="outer">
     <div id="label" class="labelClass">
@@ -47,4 +114,5 @@
       <input type="text" id="email" class="input" name="Message" placeholder="type your message here...">
     </div>
   </div>
+<script src="js/background.js"></script>
 </body>
